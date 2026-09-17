@@ -23,7 +23,7 @@ while continuar.lower() == "s":
     while continuar.lower() not in ["s", "n"]:
         print("Opción incorrecta. Debe ingresar 's' para sí o 'n' para no.")
         continuar = input("¿Desea ingresar otro número? (s/n): ")
-print("\n--- RESULTADOS ---")
+print("\n--- RESULTADOS ---") # \n significa un salto de linea 
 if ingreso_positivo:
     print(f"Suma de números positivos: {suma_positivos}")
 else:
